@@ -55,8 +55,3 @@ Yes. You can `change your Launchpad id <https://launchpad.net/people/+me/+edit>`
 **Do you support immediate mode authentication requests?**
 
 Currently we do not support immediate mode properly since we do not support pre-authorising an RP to avoid the login page. We have some infrastructure to support pre-authorisation, but decided to leave it out because it complicated the UI.
-
-Next step
----------
-
-Launchpad gives you various ways to `contact other people and teams <https://help.launchpad.net/YourAccount/ContactingPeople>`_.
