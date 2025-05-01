@@ -99,9 +99,11 @@ To do this:
 #. Upload that key to Launchpad, as described above.  
 #. You'll need to tell your SSH client to use this key. With OpenSSH, add these lines to your ~/.ssh/config file:
 
-Host bazaar.launchpad.net\ :raw-html-m2r:`<br>`
-    IdentityFile  /home/me/.ssh/id_rsa_launchpad\ :raw-html-m2r:`<br>`
-    User launchpad-username    # the short name that appears in the URL when you visit https://launchpad.net/\~
+.. code-block::
+
+    Host bazaar.launchpad.net
+     IdentityFile  /home/me/.ssh/id_rsa_launchpad
+     User launchpad-username    # the short name that appears in the URL when you visit https://launchpad.net/~
 
 .. note::
     You need to upload the .pub file to Launchpad, and to specify the private-key file (with no .pub) in the SSH configuration.

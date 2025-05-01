@@ -36,8 +36,8 @@ In this documentation
 .. toctree::
    :hidden:
    :maxdepth: 2
-
-   Tutorials <tutorial/index>
+   
+   Get started <get-started>
    How-to guides <how-to/index>
    Reference <reference/index>
    Explanation <explanation/index>
